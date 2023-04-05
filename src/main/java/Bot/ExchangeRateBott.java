@@ -22,7 +22,7 @@ import java.util.Scanner;
 import java.util.concurrent.CompletableFuture;
 @Component
 public class ExchangeRateBott extends TelegramLongPollingBot {
-    private static final String API_KEY = "c01daf3f26245f3c31338106";
+    private static final String API_KEY = "5821487909:AAH4WwwWWco-guOZlRWXodfFelTI8mFNkDA";
 
     @Override
     public void onUpdateReceived(Update update) {
@@ -65,7 +65,7 @@ public class ExchangeRateBott extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "5821487909:AAH4WwwWWco-guOZlRWXodfFelTI8mFNkDA";
+        return API_KEY;
     }
 
     @Override
