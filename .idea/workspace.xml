@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ecf39ae-0fed-4fcf-af53-4020841b7901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bot/ExchangeRateBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bot/ExchangeRateBott.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="7ecf39ae-0fed-4fcf-af53-4020841b7901" name="Changes" comment="Version 1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bot/ExchangeRateBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot/ExchangeRateBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bot/ExchangeRateBott.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot/ExchangeRateBott.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +73,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680608214659</updated>
     </task>
+    <task id="LOCAL-00001" summary="Version 1.0">
+      <created>1680689959630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680689959630</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +93,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
