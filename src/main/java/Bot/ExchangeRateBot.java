@@ -6,6 +6,8 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
+import java.util.Scanner;
+
 
 @SpringBootApplication
 @ComponentScan("Bot")
@@ -15,6 +17,7 @@ public class ExchangeRateBot {
     }
 
     @Bean
-    public ExchangeRateBott exchangeRatebot() {return new ExchangeRateBott();
+    public ExchangeRateBott exchangeRatebot() {
+        return new ExchangeRateBott();
     }
 }
