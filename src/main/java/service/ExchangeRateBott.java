@@ -58,7 +58,7 @@ public class ExchangeRateBott extends TelegramLongPollingBot {
             Scanner scanner = new Scanner(url.openStream(),"UTF-8").useDelimiter("\\A");
             String response = scanner.next();
             JSONObject json = new JSONObject(response);
-            return json.getJSONObject("rates").getDouble("EUR");
+            return json.getJSONObject("conversion_rates").getDouble("EUR");
         } catch (Exception e) {
             e.printStackTrace();
             return -1;
