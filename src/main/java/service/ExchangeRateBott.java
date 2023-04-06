@@ -1,5 +1,7 @@
-package Bot;
+package service;
+import config.BotConfig;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.BotApiMethod;
 import org.telegram.telegrambots.meta.api.methods.groupadministration.SetChatPhoto;
@@ -20,9 +22,14 @@ import java.net.URL;
 import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.CompletableFuture;
-@Component
+@Service
 public class ExchangeRateBott extends TelegramLongPollingBot {
-    private static final String API_KEY = "5821487909:AAH4WwwWWco-guOZlRWXodfFelTI8mFNkDA";
+    final BotConfig config;
+
+    public ExchangeRateBott(BotConfig config) {
+        this.config = config;
+    }
+
 
     @Override
     public void onUpdateReceived(Update update) {
@@ -47,7 +54,7 @@ public class ExchangeRateBott extends TelegramLongPollingBot {
 
     private double getExchangeRate() {
         try {
-            URL url = new URL("https://api.exchangeratesapi.io/latest?base=USD&symbols=EUR");
+            URL url = new URL("https://v6.exchangerate-api.com/v6/c01daf3f26245f3c31338106/latest/USD");
             Scanner scanner = new Scanner(url.openStream(),"UTF-8").useDelimiter("\\A");
             String response = scanner.next();
             JSONObject json = new JSONObject(response);
@@ -60,12 +67,12 @@ public class ExchangeRateBott extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "ExUSDMoneyBot";
+        return config.getBotName();
     }
 
     @Override
     public String getBotToken() {
-        return API_KEY;
+        return config.getToken();
     }
 
     @Override

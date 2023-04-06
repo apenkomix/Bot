@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ecf39ae-0fed-4fcf-af53-4020841b7901" name="Changes" comment="Version 1.2">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bot/ExchangeRateBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot/ExchangeRateBot.java" afterDir="false" />
+    <list default="true" id="7ecf39ae-0fed-4fcf-af53-4020841b7901" name="Changes" comment="Version 1.3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/BotConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/BotInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bot/ExchangeRateBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExchangeRateBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bot/ExchangeRateBott.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ExchangeRateBott.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +52,22 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="Bot.ExchangeRateBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bot.ExchangeRateBot" />
+    <configuration name="ExchangeRateBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExchangeRateBot" />
       <module name="MoneyBot" />
+      <option name="VM_PARAMETERS" value="-Dtelegram.api.mode=polling" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bot.ExchangeRateBot" />
+        <item itemvalue="Application.bot.ExchangeRateBot" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680702319006</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version 1.3">
+      <created>1680702930033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680702930033</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,7 +133,8 @@
     <MESSAGE value="Version 1.0" />
     <MESSAGE value="Version 1.1" />
     <MESSAGE value="Version 1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.2" />
+    <MESSAGE value="Version 1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
